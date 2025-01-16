@@ -102,8 +102,8 @@ QualitySettings:
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-    vSyncCount: 0
-    realtimeGICPUUsage: 25
+    vSyncCount: 1
+    realtimeGICPUUsage: 75
     lodBias: 2
     maximumLODLevel: 0
     streamingMipmapsActive: 0
