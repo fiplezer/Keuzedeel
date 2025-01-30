@@ -2385,13 +2385,14 @@ GameObject:
   - component: {fileID: 547096824}
   - component: {fileID: 547096823}
   - component: {fileID: 547096826}
+  - component: {fileID: 547096827}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &547096823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2481,6 +2482,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!114 &547096827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547096821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641977170fdd3484c898f2fabfae05f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &600482378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5391,7 +5404,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6823,7 +6836,7 @@ MonoBehaviour:
     m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   rightActivate:
-    m_UseReference: 1
+    m_UseReference: 0
     m_Action:
       m_Name: Right Activate
       m_Type: 0
@@ -6849,7 +6862,7 @@ MonoBehaviour:
     m_Reference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   rightCancel:
-    m_UseReference: 1
+    m_UseReference: 0
     m_Action:
       m_Name: Right Cancel
       m_Type: 0
@@ -6861,8 +6874,8 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
-  leftRay: {fileID: 2065117639}
-  rightRay: {fileID: 1866465919}
+  leftRay: {fileID: 1242829751}
+  rightRay: {fileID: 106954035}
 --- !u!114 &1320776796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7027,6 +7040,7 @@ GameObject:
   - component: {fileID: 1417326809}
   - component: {fileID: 1417326808}
   - component: {fileID: 1417326811}
+  - component: {fileID: 1417326812}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7242,6 +7256,18 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &1417326812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417326806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154163b8da386d44d9b39b8a99499769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1445019094
 GameObject:
   m_ObjectHideFlags: 0
@@ -11408,7 +11434,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
