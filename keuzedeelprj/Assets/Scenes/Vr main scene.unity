@@ -1660,11 +1660,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44cc123085892854da6b3d2cb9bfcc01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  head: {fileID: 0}
+  head: {fileID: 1417326807}
   spawnDistance: 2
-  menu: {fileID: 0}
+  menu: {fileID: 547096821}
   showButton:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Show Button
       m_Type: 0
@@ -1674,7 +1674,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: -4848224603041094191, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!4 &216234308
 Transform:
   m_ObjectHideFlags: 0
