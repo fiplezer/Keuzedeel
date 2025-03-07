@@ -1,18 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SoundMixerManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private AudioMixer audioMixer;
 
-    // Update is called once per frame
-    void Update()
+    public void SetSoundFXVolume(float level)
     {
-        
+        audioMixer.SetFloat("SoundFXVolume", level);
     }
 }
