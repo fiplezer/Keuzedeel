@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        var myObjects GameObject[];
+        var startPos Vector3[];  
+        var startRot Quaternion[];
     }
 
-    // Update is called once per frame
-    void Update()
+
+    function Reset()
     {
-        
+
+        startPos = new Vector3[myObjects.length];
+        startRot = new Quaternion[myObjects.length];
+
+        for (i = 0; i <= myObjects.length - 1; i++)
+        {
+
+            startPos _ = myObjects.transform.position;
+        }
     }
-}
+  }
